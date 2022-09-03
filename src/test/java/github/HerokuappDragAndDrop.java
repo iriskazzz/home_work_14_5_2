@@ -12,7 +12,7 @@ public class HerokuappDragAndDrop {
     open("https://the-internet.herokuapp.com/drag_and_drop");
 
     //Перенесите прямоугольник А на место В
-   // actions().moveToElement($("#column-a")).clickAndHold().moveByOffset(10,0).release().perform();
+    // actions().moveToElement($("#column-a")).clickAndHold().moveByOffset(10,0).release().perform();
     $("#column-a").dragAndDropTo($("#column-b"));
 
     //Проверьте, что прямоугольники действительно поменялись
